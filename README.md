@@ -6,7 +6,10 @@ coordinates.
 
 ## Instructions for use:
 1. Download setup.py and issdata.py to an empty directory
-2. Set up a virtual environment. WARNING: This app uses third-party libraries
+2. Set up a virtual environment. WARNING: This app uses the following third-party libraries
+    'Click'
+    'tzlocal'
+    'requests'
 3. Run `> pip install --editable` to test the app
 4. Run the app with `> issdata <latitude> <longitude>`
 5. Options available:
